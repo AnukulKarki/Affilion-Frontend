@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Poppins&family=Tangerine:wght@700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: Poppins, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Hide all scrollbars globally */
+* {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer and Edge */
+}
+
+*::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
+
+/* Hide Swiper navigation buttons */
+.swiper-button-next,
+.swiper-button-prev {
+  display: none !important;
+}
